@@ -14,5 +14,6 @@ for filename in os.listdir("."):
             if not 'taco' in recipe:
                 print("file {0} contains no string 'taco'".format(filename), file=sys.stderr)
                 sys.exit(1)
-
+# Print some info
 print("all *.md files contain the string 'taco'")
+
